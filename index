@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suhana, Just Once... ❤️</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(145deg,#170d2b,#49245e,#241432);
+  color: white;
+  font-family: Georgia, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  padding: 35px 25px;
+  text-align: center;
+  border: 1px solid #ffffff30;
+  border-radius: 25px;
+  background: #ffffff10;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 45px #d58bff20;
+  animation: appear 1.5s ease;
+}
+
+.heart {
+  font-size: 42px;
+  margin-bottom: 20px;
+  animation: beat 1.5s infinite;
+}
+
+h1 {
+  font-size: 32px;
+  color: #f3c6ff;
+  margin-bottom: 22px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #f4eafa;
+}
+
+button {
+  margin-top: 28px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg,#d58bff,#f5a9d5);
+  color: #32153d;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#answer {
+  display: none;
+  margin-top: 25px;
+  animation: appear 1s ease;
+}
+
+.small {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #d7b8e9;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.18); }
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="heart">❤️</div>
+
+  <h1>Suhana, Just Once...</h1>
+
+  <p>
+    Yrr Suhana, nhi ho paa rha mujhse...
+    sach m nhi ho paa rha.
+    <br><br>
+
+    I love you yrr, I miss you nhi rha ja rha mujhse aapke bina i need you yrr and bht jyada .
+    <br><br>
+
+    Aaj aapko dekha na, toh I don't know
+    kya hua... bas meri ankhon m asu aa gaye.
+    Aur abhi bhi h.
+    <br><br>
+
+    Yr i just want ki bs ek bar hi sahi bs ek bar baat krlo yrr mujhe sachi m bht juada jarurt h aapko i need you yrr m thk hua hu ab nhi ho pa rha mujhse ab kch bhi mujhe bs aapse baat krni h.
+    I really miss you.
+    <br><br>
+
+    Bs ek bar Suhana bs ek bar pls.
+    Just once. ❤️
+  </p>
+
+  <button onclick="showAnswer()">
+    Can we talk once? 🥺
+  </button>
+
+  <div id="answer">
+    <p>
+      Ma koi pressure nahi dena chahta.
+      Bas aapse baat krni h
+      <br><br>
+      I miss you, Suhana. ❤️
+I Love You yrr ,I love you 
+    </p>
+  </div>
+
+  <div class="small">
+    Made with feelings, not expectations.
+  </div>
+
+</div>
+
+<script>
+function showAnswer() {
+  document.getElementById("answer").style.display = "block";
+}
+</script>
+
+</body>
+</html>
